@@ -1,0 +1,30 @@
+{
+  "name": "pixi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.3",
+    "@babel/core": "^7.0.0-rc.3",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-plugin-inferno": "^5.1.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "es2015": "0.0.0",
+    "inferno": "^5.4.2",
+    "inferno-create-element": "^5.4.2",
+    "install": "^0.12.1",
+    "npm": "^6.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

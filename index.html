@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Exam</title>
+
+	<link rel="stylesheet" type="text/css" href="src/css/default.css" />
+
+  <!--lib-->
+	<script type="text/javascript" src="lib/pixi.js"></script>
+  <script src="https://unpkg.com/inferno@5.3.0/dist/inferno.js" defer></script>
+
+  <script>
+
+  function require(string) {
+    return window[string] || window[capitalizeFirstLetter(string)];
+  }
+
+  </script>
+
+  <!--code-->
+  <script type="text/javascript" src="src/scene.js"></script>
+  <script type="text/javascript" src="src/index.js"></script>
+  <script type="text/javascript" src="src/settings.js"></script>
+  <script type="text/javascript" src="src/utils.js"></script>
+
+  <script type="text/javascript" src="src/interface.js" defer></script>
+</head>
+<body onload="main()">
+<div id="interface"></div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "plugins": {
+        "es_modules": {},
+				"doc_comment": {
+					"fullDocs": true,
+					"strong": true
+				},
+				"commonjs":{},
+				"doc_comment":{}
+    },
+		"loadEagerly": [
+    	"src/**/*.js",
+      "lib/**/*.js"
+  	],
+  	"dontLoad": [
+    	"node_modules/**"
+  	],
+    "libs": [
+				"browser",
+        "ecmascript",
+				"jquery"
+    ],
+    "ecmaVersion": 6
+}

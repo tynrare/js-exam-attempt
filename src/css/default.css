@@ -1,0 +1,17 @@
+body{
+	margin:0;
+	overflow:hidden;
+}
+
+#interface{
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	right: 0;
+	width: 210px;
+	margin: 20px;
+}
+#interface button{
+    font-size: 30px;
+		width: 70px;
+}
